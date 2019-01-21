@@ -11,3 +11,37 @@
 html {
   font-family: var(--font-primary);
 }
+
+
+a {
+  text-decoration: none;
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
+
+ul li,
+ol li,
+dl dt {
+  list-style-type: none;
+  text-align: center;
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
+
+dd {
+  list-style-type: none;
+  text-align: center;
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+blockquote {
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+cite {
+  font-family: var(--font-primary);
+  color: var(--color-secondary);
+}
