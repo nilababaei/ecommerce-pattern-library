@@ -12,6 +12,21 @@ html {
   font-family: var(--font-primary);
 }
 
+h1,
+h2 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
 
 a {
   text-decoration: none;
@@ -23,25 +38,37 @@ ul li,
 ol li,
 dl dt {
   list-style-type: none;
-  text-align: center;
   color: var(--color-primary);
   font-family: var(--font-primary);
 }
 
 dd {
   list-style-type: none;
-  text-align: center;
   color: var(--color-primary);
   font-family: var(--font-primary);
   font-weight: bold;
 }
 
 blockquote {
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
   color: var(--color-primary);
 }
 
 cite {
-  font-family: var(--font-primary);
+  font-family: var(--font-secondary);
   color: var(--color-secondary);
+}
+
+q {
+  font-style: italic;
+  font-weight: 600;
+}
+
+strong,
+b {
+  color: var(--color-primary);
+}
+
+mark {
+  background-color: var(--color-primary-light);
 }
