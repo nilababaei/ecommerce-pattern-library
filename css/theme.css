@@ -1,0 +1,13 @@
+:root {
+  --color-primary: #195070;
+  --color-primary-light: #abdee0;
+  --color-secondary: #707070;
+  --color-redgem: #B7312B;
+
+  --font-primary: "Raleway", sans-serif;
+  --font-secondary: "Staatliches", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
