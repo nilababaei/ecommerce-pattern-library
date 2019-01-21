@@ -19,13 +19,18 @@ h2 {
   font-weight: 600;
 }
 
-h3,
+h3 {
+  color: var(--color-secondary);
+  font-family: var(--font-secondary);
+  font-weight: 300;
+}
+
 h4,
 h5,
 h6 {
   color: var(--color-primary);
   font-family: var(--font-secondary);
-  font-weight: 700;
+  font-weight: 300;
 }
 
 a {
