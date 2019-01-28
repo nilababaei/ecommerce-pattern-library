@@ -30,3 +30,6 @@ patterns:
   grey-and-red-hover:
     description: |
       The Grey and Red Hover is to be used in the product details page and can be minimized with a different font-size.
+  cart:
+    description: |
+      The Cart button is to stay at the top-right corner throughout every page of the website. It can be minimized with a different font-size.
