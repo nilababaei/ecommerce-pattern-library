@@ -85,3 +85,9 @@
   background-color: transparent;
   border-color: transparent;
 }
+
+.btn-footer:hover {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
