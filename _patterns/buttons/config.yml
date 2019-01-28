@@ -1,0 +1,32 @@
+description: |
+  The buttons use a simple design in order to unite with the website's minimalist theme.
+
+  Buttons can be combined with font-size classes to make different sized buttons.
+patterns:
+  navigation:
+    description: |
+      The Navigation button is to used in the navigation.
+  footer:
+    description: |
+      The Footer button is to be used in the footer and can be combined with different text weights.
+  solid-dark-blue:
+    description: |
+      The Solid Dark Blue button can be on the home and checkout page.
+  transparent-dark-blue:
+    description: |
+      The Transparent Dark Blue button can be on the home page on the banners.
+  light:
+    description: |
+      The Light button can be used in the product details page for accenting the related crystals colour.
+  ghost:
+    description: |
+      The Ghost button is to be used for smaller detailed buttons, included on most pages. It can be minimized with a different font-size.
+  breadcrumbs:
+    description: |
+      The Breadcrumbs button is to be used for the checkout page.
+  grey-and-blue-hover:
+    description: |
+      The Grey and Blue Hover is to be used in the checkout page and products list page and can be minimized with a different font-size.
+  grey-and-red-hover:
+    description: |
+      The Grey and Red Hover is to be used in the product details page and can be minimized with a different font-size.
