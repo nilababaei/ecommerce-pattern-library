@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "AthenaXNova"
+  description: |
+    A small business specializing in all forms of crystals from raw to geometric. Find your balance with these beauties from the Earth.
   font_url: "https://fonts.googleapis.com/css?family=Raleway:300,400,400i,600,700|Staatliches"
+  colors:
+    background: "--color-secondary-light"
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-primary-light"
+  rationales:
+    typefaces.primary: |
+      Raleway was selected because of its simple and modern design. Raleway is to be used for all body copy and most situations.
+    typefaces.secondary: |
+      Staatliches was selected because it is a bold font that can grab the attention of the users. Staatliches is only to be used for headings, buttons, banners, etc.
+    colors.primary: |
+      The primary colors represent the geometric shades and tones that a crystal can have. They should be used for text and button styles.
+    colors.secondary: |
+      The secondary colors are more neutral and bold to bring a unique quality to the design. They should be used for the navigation, detailed text, and for the crystals information page.

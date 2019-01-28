@@ -1,0 +1,87 @@
+.btn {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: var(--color-secondary-light);
+  border-radius: 0;
+}
+
+.btn:hover {
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  border-color: transparent;
+  color: var(--color-secondary);
+}
+
+.btn-ghost:hover {
+  background-color: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.btn-light {
+  background-color: var(--color-redgem);
+  border-color: var(--color-redgem);
+  color: var(--color-secondary-light);
+}
+
+.btn-trans {
+  opacity: .8;
+}
+
+.btn-grey-red {
+  color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-grey-red:hover {
+  color: var(--color-secondary-light);
+  background-color: var(--color-redgem);
+  border-color: var(--color-redgem);
+}
+
+.btn-grey-blue {
+  color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-grey-blue:hover {
+  color: var(--color-secondary-light);
+  border-color: var(--color-primary);
+  background-color: var(--color-primary);
+}
+
+.btn-nav {
+  color: var(--color-secondary);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-nav:hover {
+  color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-breadcrumbs {
+  color: var(--color-secondary);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-breadcrumbs:hover {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-footer {
+  color: var(--color-primary);
+  background-color: transparent;
+  border-color: transparent;
+}
