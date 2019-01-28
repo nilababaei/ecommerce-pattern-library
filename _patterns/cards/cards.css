@@ -1,0 +1,5 @@
+.card-crystal {
+  background-color: var(--color-primary-light);
+  color: var(--color-primary);
+  text-align: center;
+}
