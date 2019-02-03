@@ -6,3 +6,25 @@
 .section-card {
   background-color: var(--color-primary-light);
 }
+
+.type-hover:hover {
+  background-color: var(--color-secondary);
+}
+
+.left-p {
+  text-align: right;
+}
+
+.text-c {
+  color: var(--color-secondary-light);
+}
+
+.text-c-ii {
+  color: var(--color-secondary);
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.bg-check {
+  background-color: var(--color-secondary-light);
+}

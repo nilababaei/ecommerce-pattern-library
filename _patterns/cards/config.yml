@@ -1,0 +1,20 @@
+description: |
+  The cards follow a simple and minimalist theme to work together in a gridular form.
+
+  Cards can be combined with buttons and images.
+patterns:
+  image-card:
+    description: |
+      The Image card is to be used in the homepage for showcasing the products.
+  crystal-type-card:
+    description: |
+      The Crystal Type card is to be used in the products list page to organize and show all the available products.
+  crystal-info-card:
+    description: |
+      The Crystal Info card is to be used in the products information page to allow user to directly purchase the product.
+  recommendations-card:
+    description: |
+      The Recommendations card is to be used in the products information page to show user other options similar to the ones they added to their cart.
+  check-out-card:
+    description: |
+      The Check-Out card is to be used for the check-out page in order to have a collected place with all the information for the prices and totals.

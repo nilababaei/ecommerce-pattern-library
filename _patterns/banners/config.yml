@@ -1,0 +1,11 @@
+description: |
+  The banners are to be used to showcase the websites most important features.
+
+  Banners can be combined with buttons, images, and the header.
+patterns:
+  call-to-action:
+    description: |
+      The Call-To-Action banner is to be used on the homepage along with the image being a part of header content.
+  blog-banner:
+    description: |
+      The Blog banner is to be used on the homepage.
