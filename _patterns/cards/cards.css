@@ -8,7 +8,7 @@
 }
 
 .type-hover:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
 }
 
 .left-p {
@@ -27,4 +27,8 @@
 
 .bg-check {
   background-color: var(--color-secondary-light);
+}
+
+.card:hover .card-text {
+  color: var(--color-primary-light);
 }
