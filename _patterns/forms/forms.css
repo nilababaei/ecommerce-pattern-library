@@ -1,0 +1,11 @@
+.bg-check {
+  background-color: var(--color-secondary-light);
+}
+
+.text-c-ii {
+  color: var(--color-secondary);
+}
+
+.border-col {
+  border-color: var(--color-secondary-light);
+}

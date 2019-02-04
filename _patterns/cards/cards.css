@@ -19,16 +19,6 @@
   color: var(--color-secondary-light);
 }
 
-.text-c-ii {
-  color: var(--color-secondary);
-  padding-left: 15px;
-  padding-top: 10px;
-}
-
-.bg-check {
-  background-color: var(--color-secondary-light);
-}
-
 .card:hover .card-text {
   color: var(--color-primary-light);
 }
