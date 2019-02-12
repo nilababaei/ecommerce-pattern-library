@@ -13,9 +13,9 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-      Raleway was selected because of its simple and modern design. Raleway is to be used for all body copy and most situations.
+      <i>Raleway</i> was selected because of its simple and modern design. Raleway is to be used for all body copy and most situations.
     typefaces.secondary: |
-      Staatliches was selected because it is a bold font that can grab the attention of the users. Staatliches is only to be used for headings, buttons, banners, etc.
+      <i>Staatliches</i> was selected because it is a bold font that can grab the attention of the users. Staatliches is only to be used for headings, buttons, banners, etc.
     colors.primary: |
       The primary colors represent the geometric shades and tones that a crystal can have. They should be used for text and button styles.
     colors.secondary: |

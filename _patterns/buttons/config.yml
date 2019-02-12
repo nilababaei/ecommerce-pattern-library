@@ -35,12 +35,12 @@ patterns:
     description: |
       The <i>Breadcrumbs</i> button is to be combined into the breadcrumb navigation.
     background: "--color-primary-light"
-  gray-and-blue-hover:
-    title: "Gray and Blue Hover"
+  grey-and-blue-hover:
+    title: "Grey and Blue Hover"
     description: |
       The <i>Gray and Blue Hover</i> is to be used in the checkout page and products list page and can be minimized with a different font-size.
-  gray-and-red-hover:
-    title: "Gray and Red Hover"
+  grey-and-red-hover:
+    title: "Grey and Red Hover"
     description: |
       The <i>Gray and Red Hover</i> is to be used in the product details page and can be minimized with a different font-size.
     background: "--color-primary-light"
