@@ -6,55 +6,45 @@ patterns:
   navigation:
     title: "Navigation"
     description: |
-      The Navigation button is to used in the navigation.
-    width: "12em"
+      The <i>Navigation</i> button is to used in the navigation along the website.
     background: "--color-primary-light"
   footer:
     title: "Footer"
     description: |
-      The Footer button is to be used in the footer and can be combined with different text weights.
-    width: "12em"
+      The <i>Footer</i> button is to be used in the footer and can be combined with different text weights.
   solid-dark-blue:
     title: "Solid Dark Blue"
     description: |
-      The Solid Dark Blue button can be on the home and checkout page.
-    width: "12em"
+      The <i>Solid Dark Blue</i> button is to be used on the home and checkout page.
     background: "--color-primary-light"
   transparent-dark-blue:
     title: "Transparent Dark Blue"
     description: |
-      The Transparent Dark Blue button can be on the home page on the banners.
-    width: "12em"
+      The <i>Transparent Dark Blue</i> button can be on the homepage along with the banners.
   light:
     title: "Light"
     description: |
-      The Light button can be used in the product details page for accenting the related crystals colour.
-    width: "12em"
+      The <i>Light</i> button can be used in the product detail page for accenting the related crystals colour and can be combined with different colours to match the crystal.
     background: "--color-primary-light"
   ghost:
     title: "Ghost"
     description: |
-      The Ghost button is to be used for smaller detailed buttons, included on most pages. It can be minimized with a different font-size.
-    width: "12em"
+      The <i>Ghost</i> button is to be used for smaller detail buttons, included on most pages. It can be minimized with a different font-size.
   breadcrumbs:
     title: "Breadcrumbs"
     description: |
-      The Breadcrumbs button is to be used for the checkout page.
-    width: "12em"
+      The <i>Breadcrumbs</i> button is to be combined into the breadcrumb navigation.
     background: "--color-primary-light"
-  grey-and-blue-hover:
-    title: "Grey and Blue Hover"
+  gray-and-blue-hover:
+    title: "Gray and Blue Hover"
     description: |
-      The Grey and Blue Hover is to be used in the checkout page and products list page and can be minimized with a different font-size.
-    width: "12em"
-  grey-and-red-hover:
-    title: "Grey and Red Hover"
+      The <i>Gray and Blue Hover</i> is to be used in the checkout page and products list page and can be minimized with a different font-size.
+  gray-and-red-hover:
+    title: "Gray and Red Hover"
     description: |
-      The Grey and Red Hover is to be used in the product details page and can be minimized with a different font-size.
-    width: "12em"
+      The <i>Gray and Red Hover</i> is to be used in the product details page and can be minimized with a different font-size.
     background: "--color-primary-light"
   cart:
     title: "Cart"
     description: |
-      The Cart button is to stay at the top-right corner throughout every page of the website. It can be minimized with a different font-size.
-    width: "12em"
+      The <i>Cart</i> button is to stay at the top-right corner throughout every page of the website. It can be minimized with a different font-size.

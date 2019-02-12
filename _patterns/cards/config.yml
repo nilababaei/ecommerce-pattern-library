@@ -6,25 +6,25 @@ patterns:
   image-card:
     title: "Image Card"
     description: |
-      The Image card is to be used in the homepage for showcasing the products.
-    width: "12em"
+      The <i>Image Card</i> is to be used on the homepage for showcasing the products and any other section of the website that contains a showcased product.
+    width: "24em"
   crystal-type-card:
     title: "Crystal Type Card"
     description: |
-      The Crystal Type card is to be used in the products list page to organize and show all the available products.
-    width: "12em"
+      The <i>Crystal Type Card</i> is to be used on the products list page to organize and show all the available products.
+    width: "24em"
   crystal-info-card:
     title: "Crystal Info Card"
     description: |
-      The Crystal Info card is to be used in the products information page to allow user to directly purchase the product.
-    width: "12em"
+      The <i>Crystal Info Card</i> is to be used on the products information page to allow user to directly purchase the product.
+    width: "24em"
   recommendations-card:
     title: "Recommendations Card"
     description: |
-      The Recommendations card is to be used in the products information page to show user other options similar to the ones they added to their cart.
-    width: "12em"
+      The <i>Recommendations Card</i> is to be used on the products information page to show users other options similar to the ones they added to their cart.
+    width: "24em"
   check-out-card:
     title: "Check-Out Card"
     description: |
-      The Check-Out card is to be used for the check-out page in order to have a collected place with all the information for the prices and totals.
-    width: "12em"
+      The <i>Check-Out Card</i> is to be used for the check-out page in order to have a collected place with all the information for the prices and totals.
+    width: "24em"

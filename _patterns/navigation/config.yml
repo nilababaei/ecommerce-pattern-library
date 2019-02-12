@@ -1,0 +1,25 @@
+description: |
+  The navigation is to be used throughout the website in order to help users navigate. The design follows with simplicity and a dark blue colour scheme that allows for easy use and accessibility.
+
+  Navigation can be combined in grids and units, along with links and colours.
+patterns:
+  top-footer:
+    title: "Top of Footer"
+    description: |
+      The <i>Top Footer</i> navigation is to be used in the footer at every page.
+  bottom-footer:
+    title: "Bottom of Footer"
+    description: |
+      The <i>Bottom Footer</i> navigation is to be used in the footer at every page.
+  breadcrumbs:
+    title: "Breadcrumbs"
+    description: |
+      The <i>Breadcrumbs</i> are to be used in a page with multiple sections to further into, in order to guide the users through the website.
+  return:
+    title: "Return Navigation"
+    description: |
+      The <i>Return</i> will be used in the products detail page in order to allow the user to return to the main page, along with in the checkout page and wherever the return need be.
+  refund-policy:
+    title: "Refund Policy Navigation"
+    description: |
+      The <i>Refund Policy</i> is to be used in the checkout form page in order to allow the user to have access to the policy before purchasing anything.
