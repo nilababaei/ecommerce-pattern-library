@@ -7,17 +7,14 @@ patterns:
     title: "Slideshow Image Section"
     description: |
       The <i>Slideshow Image Section</i> is to be used on the homepage and other areas that require the showcasing of products. This can be combined with cards and icons.
-    width: "32em"
   text-section:
     title: "Text Section"
     description: |
       The <i>Text Section</i> is to be used on the homepage and other areas in the website that require a stylised section with text.
-    width: "32em"
   newsletter-section:
     title: "Newsletter Section"
     description: |
       The <i>Newsletter Section</i> is to be used on the homepage in order to promote users to interact with the business and recieve updates.
-    width: "32em"
   crystal-info:
     title: "Crystal Information Section"
     description: |
@@ -27,4 +24,3 @@ patterns:
     title: "Products Slideshow Section"
     description: |
       The <i>Products Showcasing</i> is to be used on the product details page in order to promote other similar products. This can be combined with cards and buttons.
-    width: "32em"

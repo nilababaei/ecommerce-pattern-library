@@ -1,0 +1,25 @@
+.bg-col {
+  background-color: var(--color-primary-light);
+}
+
+.p-col {
+  color: var(--color-primary);
+}
+
+.max-w {
+  max-width: 32em;
+  margin: 0 auto;
+}
+
+.rd-gem {
+  color: var(--color-redgem);
+  border-color: var(--color-redgem);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.rd-gem-ii {
+  color: var(--color-redgem);
+}
