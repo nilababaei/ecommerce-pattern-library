@@ -6,7 +6,7 @@ patterns:
   main-form:
     title: "Main Form Field"
     description: |
-      The <i>Main Form</i> field is be used on the checkout pages and wherever the original form style is to be placed. It can be combined with headers and used in a grid system.
+      The <i>Main Form</i> field is be used on the checkout page and wherever the original form style is to be placed. It can be combined with headers and used in a grid system.
     width: "32em"
   radio-button-form:
     title: "Radio Button"
@@ -21,7 +21,7 @@ patterns:
   date-picker:
     title: "Date Picker"
     description: |
-      The <i>Date Picker</i> is to be used is there needs to be a date picker form style in the website.
+      The <i>Date Picker</i> is to be used wherever the style is present on the website.
     width: "32em"
   discount-code-input:
     title: "Discount Code"

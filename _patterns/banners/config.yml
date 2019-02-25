@@ -6,7 +6,7 @@ patterns:
   call-to-action:
     title: "Call To Action"
     description: |
-      The <i>Call To Action</i> banner is to be used on the homepage along with the image being a part of the header content.
+      The <i>Call To Action</i> banner is an example of the call-to-action present on the homepage. The developper must only take the matching button and apply that pinned to the header, as the images of both remain the same.
   blog-banner:
     title: "Website Section"
     description: |

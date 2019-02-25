@@ -23,3 +23,16 @@
 .rd-gem-ii {
   color: var(--color-redgem);
 }
+
+.blue-gem {
+  color: var(--color-primary);
+  border-color: var(--color-primary-light);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.blue-txt {
+  color: var(--color-primary);
+}

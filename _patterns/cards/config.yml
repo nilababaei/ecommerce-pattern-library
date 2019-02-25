@@ -6,7 +6,7 @@ patterns:
   image-card:
     title: "Image Card"
     description: |
-      The <i>Image Card</i> is to be used on the homepage for showcasing the products and any other section of the website that contains a showcased product.
+      The <i>Image Card</i> is to be used on the homepage for showcasing the products and any other section of the website that contains product showcasing.
     width: "24em"
   crystal-type-card:
     title: "Crystal Type Card"
@@ -24,7 +24,7 @@ patterns:
       The <i>Recommendations Card</i> is to be used on the products information page to show users other options similar to the ones they added to their cart.
     width: "24em"
   check-out-card:
-    title: "Check-Out Card"
+    title: "Checkout Card"
     description: |
-      The <i>Check-Out Card</i> is to be used for the check-out page in order to have a collected place with all the information for the prices and totals.
+      The <i>Checkout Card</i> is to be used for the checkout page in order to have a collected place with all the information for the prices and totals.
     width: "24em"

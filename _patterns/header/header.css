@@ -1,0 +1,25 @@
+.header {
+  background-image: url("/images/main-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 800px;
+}
+
+.img-class {
+  width: 30%;
+  top: 100px;
+}
+
+@media only screen and (min-width: 38em){
+
+  .img-class {
+    width: 10%;
+    top: 110px;
+  }
+
+  .btn-hover {
+    display: inline;
+  }
+
+}

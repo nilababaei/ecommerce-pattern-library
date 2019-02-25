@@ -18,9 +18,13 @@ patterns:
   crystal-info:
     title: "Crystal Information Section"
     description: |
-      The <i>Crystal Info</i> is to be used on the product detail page in order to showcase the products information. This can be combined with different text and colours to relate to any crystal.
+      The <i>Crystal Info</i> is to be used on the product detail page in order to showcase the products information. This can be combined with different text content and colours to relate to any crystal.
     width: "32em"
   products-showcasing:
     title: "Products Slideshow Section"
     description: |
       The <i>Products Showcasing</i> is to be used on the product details page in order to promote other similar products. This can be combined with cards and buttons.
+  crystal-start:
+    title: "Crystal Items Section"
+    description: |
+      The <i>Crystal Items Section</i> is to be used on the product list page to explain what the items are. It is to be placed above the cards, below the header. It can also be used as a header for any page in the website (eg. Blog, About Us).

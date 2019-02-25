@@ -9,6 +9,7 @@
 
 .type-hover:hover {
   background-color: var(--color-primary);
+  transition: all 500ms linear;
 }
 
 .left-p {

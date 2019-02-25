@@ -14,7 +14,7 @@ patterns:
   breadcrumbs:
     title: "Breadcrumbs"
     description: |
-      The <i>Breadcrumbs</i> are to be used in a page with multiple sections to further into, in order to guide the users through the website.
+      The <i>Breadcrumbs</i> are to be used in a page with multiple sections to further into, in order to guide the users through the website. This style will be present on the checkout page.
   return:
     title: "Return Navigation"
     description: |

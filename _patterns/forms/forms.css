@@ -46,6 +46,10 @@ input#date {
   color: #999;
 }
 
+.dif-col {
+  color: var(--color-secondary-light);
+}
+
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,

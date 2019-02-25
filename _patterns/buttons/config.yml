@@ -6,45 +6,45 @@ patterns:
   navigation:
     title: "Navigation"
     description: |
-      The <i>Navigation</i> button is to used in the navigation along the website.
+      The <i>Navigation</i> button is to used solely in the navigation.
     background: "--color-primary-light"
   footer:
     title: "Footer"
     description: |
-      The <i>Footer</i> button is to be used in the footer and can be combined with different text weights.
+      The <i>Footer</i> button is to be used solely in the footer and can be combined with different text weights.
   solid-dark-blue:
     title: "Solid Dark Blue"
     description: |
-      The <i>Solid Dark Blue</i> button is to be used on the home and checkout page.
+      The <i>Solid Dark Blue</i> button is the standard website's button style. It is used in the homepage and the checkout page, but can be present in other areas of the website.
     background: "--color-primary-light"
   transparent-dark-blue:
     title: "Transparent Dark Blue"
     description: |
-      The <i>Transparent Dark Blue</i> button can be on the homepage along with the banners.
+      The <i>Transparent Dark Blue</i> button is to be used on the homepage along with any banners on the website. This is to be combined with the header on the homepage to form the banner.
   light:
     title: "Light"
     description: |
-      The <i>Light</i> button can be used in the product detail page for accenting the related crystals colour and can be combined with different colours to match the crystal.
+      The <i>Light</i> button is to be used in the product detail page for accenting the related crystals colour and can be combined with different colours to match the crystal.
     background: "--color-primary-light"
   ghost:
     title: "Ghost"
     description: |
-      The <i>Ghost</i> button is to be used for smaller detail buttons, included on most pages. It can be minimized with a different font-size.
+      The <i>Ghost</i> button is to be used for smaller details, included on most pages. It can be minimized with a different font-size.
   breadcrumbs:
     title: "Breadcrumbs"
     description: |
-      The <i>Breadcrumbs</i> button is to be combined into the breadcrumb navigation.
+      The <i>Breadcrumbs</i> button is to be combined into the breadcrumb navigation present on the checkout page.
     background: "--color-primary-light"
   grey-and-blue-hover:
     title: "Grey and Blue Hover"
     description: |
-      The <i>Gray and Blue Hover</i> is to be used in the checkout page and products list page and can be minimized with a different font-size.
+      The <i>Gray and Blue Hover</i> is another basic website style, which is to be used in the checkout page and products list page and can be minimized with a different font-size.
   grey-and-red-hover:
     title: "Grey and Red Hover"
     description: |
-      The <i>Gray and Red Hover</i> is to be used in the product details page and can be minimized with a different font-size.
+      The <i>Gray and Red Hover</i> is to be used in the product details page and can be minimized with a different font-size. It is also combined with cards and the colour of the hover changes with the chosen crystal.
     background: "--color-primary-light"
   cart:
     title: "Cart"
     description: |
-      The <i>Cart</i> button is to stay at the top-right corner throughout every page of the website. It can be minimized with a different font-size.
+      The <i>Cart</i> button is to stay at the top-right corner throughout every page of the website.
