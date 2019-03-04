@@ -20,3 +20,6 @@ patternbot:
       The primary colors represent the geometric shades and tones that a crystal can have. They should be used for text and button styles.
     colors.secondary: |
       The secondary colors are more neutral and bold to bring a unique quality to the design. They should be used for the navigation, detailed text, and for the crystals information page.
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
