@@ -1,12 +1,12 @@
 <div class="grid card">
   <div class="unit xs-1 s-1 m-2-5 l-2-5 push-1-2">
-    <h3 class="push-0">$10.00</h3>
+    <h3 class="push-0">{{include.price}}</h3>
     <p class="push-1-2">QTY: 1</p>
-    {% pattern buttons/light %}
+    {% pattern buttons/light text="ADD TO CART" aria="Add to cart button" col="btn-green" %}
   </div>
   <div class="unit xs-1 s-1 m-3-5 l-3-5">
     <div class="embed embed-1by1">
-      <img class="embed-item img-flex" src="/images/amethyst.jpg" alt="">
+      <img class="embed-item img-flex" src="/images/{{include.image}}" alt="Image of crystal">
     </div>
   </div>
 </div>

@@ -1,12 +1,12 @@
 <div class="card card-crystal gutter-1-2">
-  <a href="#">
+  <a href="{{include.url}}" aria-label="Click to go to crystal's page">
     <div class="embed embed-1by1">
-      <img class="embed-item img-flex" src="/images/amethyst.jpg" alt="">
+      <img class="embed-item img-flex" src="/images/{{include.image}}" alt="Picture of the crystal">
     </div>
   </a>
   <div class="island section-card">
-    <h5 class="push-0">Amethyst</h5>
-    <h3 class="push-1-2">$20.00</h3>
-    {% pattern buttons/grey-and-red-hover %}
+    <h5 class="push-0">{{include.header}}</h5>
+    <h3 class="push-1-2">{{include.price}}</h3>
+    {% pattern buttons/grey-and-blue-hover text="ADD TO CART" aria="Add to cart button" url="#" %}
   </div>
 </div>

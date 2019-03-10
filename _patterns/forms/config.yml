@@ -8,11 +8,241 @@ patterns:
     description: |
       The <i>Main Form</i> field is be used on the checkout page and wherever the original form style is to be placed. It can be combined with headers and used in a grid system.
     width: "32em"
+    fields:
+      - name: header
+        type: string
+        example: "EMAIL"
+      - name: header
+        type: string
+        example: "FIRST NAME"
+      - name: header
+        type: string
+        example: "LAST NAME"
+      - name: header
+        type: string
+        example: "COMPANY(OPTIONAL)"
+      - name: header
+        type: string
+        example: "ADDRESS"
+      - name: header
+        type: string
+        example: "APARTMENT, SUITE, ETC.(OPTIONAL)"
+      - name: header
+        type: string
+        example: "CITY"
+      - name: header
+        type: string
+        example: "COUNTRY"
+      - name: header
+        type: string
+        example: "POSTAL CODE"
+      - name: header
+        type: string
+        example: "PHONE NUMBER"
+      - name: placeholder
+        type: string
+        example: "EMAIL"
+      - name: placeholder
+        type: string
+        example: "FIRST NAME"
+      - name: placeholder
+        type: string
+        example: "LAST NAME"
+      - name: placeholder
+        type: string
+        example: "COMPANY(OPTIONAL)"
+      - name: placeholder
+        type: string
+        example: "ADDRESS"
+      - name: placeholder
+        type: string
+        example: "APARTMENT, SUITE, ETC.(OPTIONAL)"
+      - name: placeholder
+        type: string
+        example: "CITY"
+      - name: placeholder
+        type: string
+        example: "COUNTRY"
+      - name: placeholder
+        type: string
+        example: "POSTAL CODE"
+      - name: placeholder
+        type: string
+        example: "PHONE NUMBER"
+      - name: error
+        type: string
+        example: "Please provide email"
+      - name: error
+        type: string
+        example: "Please provide first name"
+      - name: error
+        type: string
+        example: "Please provide last name"
+      - name: error
+        type: string
+        example: "Please provide company"
+      - name: error
+        type: string
+        example: "Please provide address"
+      - name: error
+        type: string
+        example: "Please provide apartment, suite, etc."
+      - name: error
+        type: string
+        example: "Please provide city"
+      - name: error
+        type: string
+        example: "Please provide country"
+      - name: error
+        type: string
+        example: "Please provide postal code"
+      - name: error
+        type: string
+        example: "Please provide phone number"
+      - name: for
+        type: string
+        example: "email"
+      - name: id
+        type: string
+        example: "email"
+      - name: for
+        type: string
+        example: "first"
+      - name: id
+        type: string
+        example: "first"
+      - name: for
+        type: string
+        example: "last"
+      - name: id
+        type: string
+        example: "last"
+      - name: for
+        type: string
+        example: "company"
+      - name: id
+        type: string
+        example: "company"
+      - name: for
+        type: string
+        example: "address"
+      - name: id
+        type: string
+        example: "address"
+      - name: for
+        type: string
+        example: "apartment"
+      - name: id
+        type: string
+        example: "apartment"
+      - name: for
+        type: string
+        example: "city"
+      - name: id
+        type: string
+        example: "city"
+      - name: for
+        type: string
+        example: "country"
+      - name: id
+        type: string
+        example: "country"
+      - name: for
+        type: string
+        example: "code"
+      - name: id
+        type: string
+        example: "code"
+      - name: for
+        type: string
+        example: "phone"
+      - name: id
+        type: string
+        example: "phone"
+      - name: aria
+        type: string
+        example: "email-error"
+      - name: id-2
+        type: string
+        example: "email-error"
+      - name: aria
+        type: string
+        example: "first-error"
+      - name: id-2
+        type: string
+        example: "first-error"
+      - name: aria
+        type: string
+        example: "last-error"
+      - name: id-2
+        type: string
+        example: "last-error"
+      - name: aria
+        type: string
+        example: "company-error"
+      - name: id-2
+        type: string
+        example: "company-error"
+      - name: aria
+        type: string
+        example: "address-error"
+      - name: id-2
+        type: string
+        example: "address-error"
+      - name: aria
+        type: string
+        example: "apartment-error"
+      - name: id-2
+        type: string
+        example: "apartment-error"
+      - name: aria
+        type: string
+        example: "city-error"
+      - name: id-2
+        type: string
+        example: "city-error"
+      - name: aria
+        type: string
+        example: "country-error"
+      - name: id-2
+        type: string
+        example: "country-error"
+      - name: aria
+        type: string
+        example: "code-error"
+      - name: id-2
+        type: string
+        example: "code-error"
+      - name: aria
+        type: string
+        example: "phone-error"
+      - name: id-2
+        type: string
+        example: "phone-error"
+      - name: type
+        type: string
+        example: "text"
+      - name: type
+        type: string
+        example: "number"
+      - name: type
+        type: string
+        example: "email"
+      - name: type
+        type: string
+        example: "tel"
+      - name: type
+        type: string
+        example: "url"
   radio-button-form:
     title: "Radio Button"
     description: |
       The <i>Radio Button Form</i> is to be used in place of any button style, and will be used in the checkout page.
     width: "32em"
+    fields:
+      - name: text
+        type: string
+        example: "Keep me up to date on news and exclusive offers"
   data-list:
     title: "Data List"
     description: |
@@ -28,13 +258,40 @@ patterns:
     description: |
       The <i>Discount Code Input</i> is to be used on the checkout page and can be combined with buttons.
     width: "32em"
+    fields:
+      - name: header
+        type: string
+        example: "GIFT CARD OR DISCOUNT CODE"
+      - name: placeholder
+        type: string
+        example: "GIFT CARD OR DISCOUNT CODE"
   email-input:
     title: "Email Input"
     description: |
       The <i>Email Input</i> can be used on the homepage in order for users to sign-up for email updates and can be combined with buttons.
     width: "32em"
+    fields:
+      - name: header
+        type: string
+        example: "EMAIL"
+      - name: placeholder
+        type: string
+        example: "name@example.com"
+      - name: error
+        type: string
+        example: "Please provide email"
+      - name: aria
+        type: string
+        example: "email-error"
+      - name: id
+        type: string
+        example: "email-error"
   let-us-know-form:
     title: "Comment Form"
     description: |
       The <i>Let Us Know Form</i> is to be used for users to be able to directly contact the business. This can be combined with buttons.
     width: "32em"
+    fields:
+      - name: text
+        type: string
+        example: "Have a question, ask away!"

@@ -1,11 +1,11 @@
 <div class="card card-crystal gutter-1-2 push-1-2">
   <div class="embed embed-1by1">
-    <img class="img-flex embed-item" src="/images/amethyst.jpg" alt="">
+    <img class="img-flex embed-item" src="/images/{{include.image}}" alt="Image of crystal">
   </div>
-  <a href="#">
+  <a href="{{include.url}}" aria-label="Click to go to crystal's page">
     <div class="type-hover island section-card">
-      <h5 class="card-text push-0">Amethyst</h5>
-      <h4 class="card-text push-1-2">$20.00</h4>
+      <h5 class="card-text push-0">{{include.header}}</h5>
+      <h4 class="card-text push-1-2">{{include.price}}</h4>
     </div>
   </a>
 </div>

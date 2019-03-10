@@ -1,8 +1,10 @@
-<div>
+<div class="relative">
   <div>
-    <img class="img-flex" src="/images/blog-banner.jpg" alt="">
+    <img class="img-flex" src="/images/blog-banner.jpg" alt="Image of a lake and forest">
   </div>
   <div class="absolute pin-c">
-    {% pattern buttons/transparent-dark-blue %}
+    {% if include.button_url %}
+      {% pattern buttons/transparent-dark-blue url=include.button_url text=include.button_text %}
+    {% endif %}
   </div>
 </div>

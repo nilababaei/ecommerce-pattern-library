@@ -1,15 +1,15 @@
 <div class="grid section-card gutter-1-2 push-0 pad-t pad-b center">
   <div class="unit xs-1 text-c-ii pad-t-1-4 gutter-1-4">
-    <label for="discount"><h4 class="push-1-4">EMAIL</h4></label>
+    <label for="discount"><h4 class="push-1-4">{{include.header}}</h4></label>
   </div>
   <div class="unit xs-3-4 bg-check text-c-ii pad-t-1-4 gutter-1-4">
-    <input class="border-col" type="text" placeholder="name@example.com" id="discount" required aria-describedby="email-error">
-    <p class="error-message milli island-1-4 push-0" id="email-error">
+    <input class="border-col" type="text" placeholder="{{include.placeholder}}" id="discount" required aria-describedby="{{include.aria}}email-error">
+    <p class="error-message milli island-1-4 push-0" id="{{include.id}}">
       <i class="icon i-16"><svg><use xlink:href="images/icons.svg#error" /></svg></i>
-      <span class="icon-label">Please provide email</span>
+      <span class="icon-label">{{include.error}}</span>
     </p>
   </div>
   <div class="unit xs-1-4 text-right bg-check">
-    {% pattern buttons/solid-dark-blue %}
+    {% pattern buttons/solid-dark-blue text="SIGN UP" aria="#" %}
   </div>
 </div>

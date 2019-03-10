@@ -1,6 +1,8 @@
-<div>
-  <img class="img-flex cut-img" src="/images/main-banner.jpg" alt="">
+<div class="relative">
+  <img class="img-flex cut-img {{include.text}}" src="/images/main-banner.jpg" alt="Image of a forest">
   <div class="absolute pin-bc btn-main">
-    {% pattern buttons/transparent-dark-blue %}
+  {% if include.button_url %}
+    {% pattern buttons/transparent-dark-blue url=include.button_url text=include.button_text %}
+  {% endif %}
   </div>
 </div>

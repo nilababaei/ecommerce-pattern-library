@@ -8,42 +8,204 @@ patterns:
     description: |
       The <i>Navigation</i> button is to used solely in the navigation.
     background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "HOME"
+      - name: text
+        type: string
+        example: "PRODUCTS"
+      - name: text
+        type: string
+        example: "ONLINE CLASS"
+      - name: text
+        type: string
+        example: "BLOG"
+      - name: text
+        type: string
+        example: "ABOUT US"
+      - name: url
+        type: url
+        example: "#"
+      - name: url
+        type: url
+        example: "/index/"
+      - name: url
+        type: url
+        example: "/products/"
   footer:
     title: "Footer"
     description: |
       The <i>Footer</i> button is to be used solely in the footer and can be combined with different text weights.
+    fields:
+      - name: text
+        type: string
+        example: "Terms & Conditions"
+      - name: text
+        type: string
+        example: "Privacy Statement"
+      - name: text
+        type: string
+        example: "Cookie Policy"
+      - name: aria
+        type: string
+        example: "Terms & Conditions button"
+      - name: aria
+        type: string
+        example: "Privacy Statement button"
+      - name: aria
+        type: string
+        example: "Cookie Policy button"
+      - name: url
+        type: url
+        example: "#"
   solid-dark-blue:
     title: "Solid Dark Blue"
     description: |
       The <i>Solid Dark Blue</i> button is the standard website's button style. It is used in the homepage and the checkout page, but can be present in other areas of the website.
     background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "SIGN UP"
+      - name: aria
+        type: string
+        example: "Sign up button"
+      - name: url
+        type: url
+        example: "#"
+      - name: text
+        type: string
+        example: "SEND"
+      - name: aria
+        type: string
+        example: "Send button"
   transparent-dark-blue:
     title: "Transparent Dark Blue"
     description: |
       The <i>Transparent Dark Blue</i> button is to be used on the homepage along with any banners on the website. This is to be combined with the header on the homepage to form the banner.
+    fields:
+      - name: text
+        type: string
+        example: "READ OUR BLOG"
+      - name: text
+        type: string
+        example: "SHOP NOW"
+      - name: url
+        type: url
+        example: "/products/"
+      - name: url
+        type: url
+        example: "#"
   light:
     title: "Light"
     description: |
       The <i>Light</i> button is to be used in the product detail page for accenting the related crystals colour and can be combined with different colours to match the crystal.
     background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "ADD TO CART"
+      - name: aria
+        type: string
+        example: "Add to cart button"
+      - name: col
+        type: string
+        example: "btn-light"
+      - name: col
+        type: string
+        example: "btn-orange"
+      - name: col
+        type: string
+        example: "btn-yellow"
+      - name: col
+        type: string
+        example: "btn-green"
+      - name: col
+        type: string
+        example: "btn-blue"
+      - name: col
+        type: string
+        example: "btn-purple"
+      - name: url
+        type: url
+        example: "#"
   ghost:
     title: "Ghost"
     description: |
       The <i>Ghost</i> button is to be used for smaller details, included on most pages. It can be minimized with a different font-size.
+    fields:
+      - name: text
+        type: string
+        example: "RETURN TO CART"
+      - name: aria
+        type: string
+        example: "Return to cart button"
+      - name: text
+        type: string
+        example: "RETURN TO PRODUCTS"
+      - name: aria
+        type: string
+        example: "Return to products button"
+      - name: url
+        type: url
+        example: "#"
+      - name: url
+        type: url
+        example: "/products/"
   breadcrumbs:
     title: "Breadcrumbs"
     description: |
       The <i>Breadcrumbs</i> button is to be combined into the breadcrumb navigation present on the checkout page.
     background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "CART"
+      - name: aria
+        type: string
+        example: "Cart button"
+      - name: text
+        type: string
+        example: "CUSTOMER INFORMATION"
+      - name: aria
+        type: string
+        example: "Customer information button"
+      - name: text
+        type: string
+        example: "SHIPPING METHOD"
+      - name: aria
+        type: string
+        example: "Shipping method button"
+      - name: text
+        type: string
+        example: "PAYMENT METHOD"
+      - name: aria
+        type: string
+        example: "Payment method button"
+      - name: url
+        type: url
+        example: "#"
   grey-and-blue-hover:
     title: "Grey and Blue Hover"
     description: |
       The <i>Gray and Blue Hover</i> is another basic website style, which is to be used in the checkout page and products list page and can be minimized with a different font-size.
-  grey-and-red-hover:
-    title: "Grey and Red Hover"
-    description: |
-      The <i>Gray and Red Hover</i> is to be used in the product details page and can be minimized with a different font-size. It is also combined with cards and the colour of the hover changes with the chosen crystal.
-    background: "--color-primary-light"
+    fields:
+      - name: text
+        type: string
+        example: "APPLY"
+      - name: aria
+        type: string
+        example: "Apply button"
+      - name: url
+        type: url
+        example: "#"
+      - name: text
+        type: string
+        example: "ADD TO CART"
+      - name: aria
+        type: string
+        example: "Add to cart button"
   cart:
     title: "Cart"
     description: |

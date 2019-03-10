@@ -7,7 +7,31 @@ patterns:
     title: "Call To Action"
     description: |
       The <i>Call To Action</i> banner is an example of the call-to-action present on the homepage. The developper must only take the matching button and apply that pinned to the header, as the images of both remain the same.
+    fields:
+      - name: text
+        type: string
+        example: "hidden"
+      - name: text
+        type: string
+        example: "ib"
+      - name: button_text
+        type: string
+        example: "SHOP NOW"
+        required: false
+      - name: button_url
+        type: string
+        example: "/products/"
+        required: false
   blog-banner:
     title: "Website Section"
     description: |
       The <i>Blog Banner</i> is to be used on the homepage and the style can be used in other areas of the website where there needs to be a call-out on a specific section of the website.
+    fields:
+      - name: button_text
+        type: string
+        example: "READ OUR BLOG"
+        required: false
+      - name: button_url
+        type: string
+        example: "#"
+        required: false

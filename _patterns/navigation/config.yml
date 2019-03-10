@@ -19,6 +19,31 @@ patterns:
     title: "Return Navigation"
     description: |
       The <i>Return</i> will be used in the products detail page in order to allow the user to return to the main page, along with in the checkout page and wherever the return need be.
+    fields:
+      - name: button_text
+        type: string
+        example: "RETURN TO CART"
+        required: false
+      - name: button_aria
+        type: string
+        example: "Return to cart button"
+        required: false
+      - name: button_text
+        type: string
+        example: "RETURN TO PRODUCTS"
+        required: false
+      - name: button_aria
+        type: string
+        example: "Return to products button"
+        required: false
+      - name: button_url
+        type: url
+        example: "#"
+        required: false
+      - name: button_url
+        type: url
+        example: "/products/"
+        required: false
   refund-policy:
     title: "Refund Policy Navigation"
     description: |

@@ -33,18 +33,6 @@
   opacity: .8;
 }
 
-.btn-grey-red {
-  color: var(--color-secondary-light);
-  background-color: var(--color-secondary);
-  border-color: var(--color-secondary);
-}
-
-.btn-grey-red:hover {
-  color: var(--color-secondary-light);
-  background-color: var(--color-redgem);
-  border-color: var(--color-redgem);
-}
-
 .btn-grey-blue {
   color: var(--color-secondary-light);
   background-color: var(--color-secondary);
@@ -104,4 +92,34 @@
   background-color: var(--color-secondary-light);
   border-color: var(--color-secondary-light);
   color: var(--color-primary);
+}
+
+.btn-orange {
+  background-color: var(--color-orangejuice);
+  border-color: var(--color-orangejuice);
+  color: var(--color-secondary-light);
+}
+
+.btn-yellow {
+  background-color: var(--color-coldstar);
+  border-color: var(--color-coldstar);
+  color: var(--color-secondary-light);
+}
+
+.btn-green {
+  background-color: var(--color-naturalgreen);
+  border-color: var(--color-naturalgreen);
+  color: var(--color-secondary-light);
+}
+
+.btn-blue {
+  background-color: var(--color-blueoceans);
+  border-color: var(--color-blueoceans);
+  color: var(--color-secondary-light);
+}
+
+.btn-purple {
+  background-color: var(--color-purpleofairy);
+  border-color: var(--color-purpleofairy);
+  color: var(--color-secondary-light);
 }

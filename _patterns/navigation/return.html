@@ -1,4 +1,6 @@
 <i class="icon i-32"><svg><use xlink:href="/images/icons.svg#arrow-pointing-left"></use></svg></i>
 <div class="inline">
-  {% pattern buttons/ghost %}
+{% if include.button_url %}
+  {% pattern buttons/ghost url=include.button_url text=include.button_text aria=include.button_aria %}
+{% endif %}
 </div>

@@ -11,6 +11,20 @@
   top: 100px;
 }
 
+.current {
+  border-width: 5px;
+  border-color: var(--color-primary-light);
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.srch {
+  background-color: transparent;
+  border-color: transparent;
+}
+
 @media only screen and (min-width: 38em){
 
   .img-class {

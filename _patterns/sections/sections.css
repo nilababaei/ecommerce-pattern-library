@@ -24,6 +24,71 @@
   color: var(--color-redgem);
 }
 
+.orange-gem {
+  color: var(--color-orangejuice);
+  border-color: var(--color-orangejuice);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.orange-gem-ii {
+  color: var(--color-orangejuice);
+}
+
+.yellow-gem {
+  color: var(--color-coldstar);
+  border-color: var(--color-coldstar);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.yellow-gem-ii {
+  color: var(--color-coldstar);
+}
+
+.green-gem {
+  color: var(--color-naturalgreen);
+  border-color: var(--color-naturalgreen);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.green-gem-ii {
+  color: var(--color-naturalgreen);
+}
+
+.blue-gem {
+  color: var(--color-blueoceans);
+  border-color: var(--color-blueoceans);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.blue-gem-ii {
+  color: var(--color-blueoceans);
+}
+
+.purple-gem {
+  color: var(--color-purpleofairy);
+  border-color: var(--color-purpleofairy);
+  border-width: thick;
+  border-style: solid;
+  width: 4em;
+  margin: 0 auto;
+}
+
+.purple-gem-ii {
+  color: var(--color-purpleofairy);
+}
+
 .blue-gem {
   color: var(--color-primary);
   border-color: var(--color-primary-light);
