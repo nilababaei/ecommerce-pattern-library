@@ -50,6 +50,14 @@ input#date {
   color: var(--color-secondary-light);
 }
 
+.number-col {
+  width: 50px;
+}
+
+input#number {
+  border-color: var(--color-primary);
+}
+
 .is-validated input:invalid,
 .is-validated input[type="checkbox"]:invalid + label::before,
 .is-validated:invalid,

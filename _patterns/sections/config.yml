@@ -34,91 +34,28 @@ patterns:
     fields:
       - name: header
         type: string
-        example: "AMETHYST"
-      - name: header
-        type: string
-        example: "CITRINE"
-      - name: header
-        type: string
-        example: "FLUORITE"
-      - name: header
-        type: string
         example: "GARNET"
-      - name: header
-        type: string
-        example: "HEMATITE"
-      - name: header
-        type: string
-        example: "LEPIDOLITE"
-      - name: header
-        type: string
-        example: "OBSIDIAN"
-      - name: header
-        type: string
-        example: "OPALITE"
-      - name: header
-        type: string
-        example: "PYRITE"
-      - name: header
-        type: string
-        example: "ROSE-QUARTZ"
-      - name: header
-        type: string
-        example: "SERPENTINE"
-      - name: header
-        type: string
-        example: "ZEOLITE"
       - name: color
-        type: string
-        example: "rd-gem"
+        type: class
+        classes:
+          - rd-gem
+          - orange-gem
+          - yellow-gem
+          - green-gem
+          - blue-gem
+          - purple-gem
       - name: colorii
+        type: class
+        classes:
+          - rd-gem-ii
+          - orange-gem-ii
+          - yellow-gem-ii
+          - green-gem-ii
+          - blue-gem-ii
+          - purple-gem-ii
+      - name: text-main
         type: string
-        example: "rd-gem-ii"
-      - name: color
-        type: string
-        example: "orange-gem"
-      - name: colorii
-        type: string
-        example: "orange-gem-ii"
-      - name: color
-        type: string
-        example: "yellow-gem"
-      - name: colorii
-        type: string
-        example: "yellow-gem-ii"
-      - name: color
-        type: string
-        example: "green-gem"
-      - name: colorii
-        type: string
-        example: "green-gem-ii"
-      - name: color
-        type: string
-        example: "blue-gem"
-      - name: colorii
-        type: string
-        example: "blue-gem-ii"
-      - name: color
-        type: string
-        example: "purple-gem"
-      - name: colorii
-        type: string
-        example: "purple-gem-ii"
-      - name: firsttext
-        type: string
-        example: "Garnet is found all over the world, and though commonly known to be red, it is in fact found in a variety of colours and chemical formulas, each with its own set of spiritual properties. Legends and folklore place garnet among the most ancient of talismans. Not only was it prized as an ornamental jewel, but its strong curative powers and protective energies made it valuable."
-      - name: secondtext
-        type: string
-        example: "Garnet is also known for its utilization of creative energy. It grounds spirit forces within the body and helps in the ability to work lovingly on the physical plane. It is a stone of strong, intense feelings."
-      - name: thirdtext
-        type: string
-        example: "Garnet is known as the Stone of Health, extracting negative energy from the chakras, and transmuting the energy to a beneficial state."
-      - name: fourthtext
-        type: string
-        example: "Garnet balances energy, bringing serenity or passion as appropriate, and can inspire love and balance the sex drive. Garnet is considered a lucky stone, for love, success, and for business relationships. It helps you let go of old behaviour patterns and boosts self-confidence."
-      - name: fifthtext
-        type: string
-        example: "The legends of Garnet are vast and colourful."
+        example: "The Garnet crystal meaning is rooted in ancient history and comes from the Latin word ‘granatum’, which means pomegranate, a reference to its intense red color that resembles the glistening, deep red seeds of the fruit. The Garnet crystal was also cherished by early medieval jewelers who incorporated the stone into everything from rings and brooches to buckles and necklaces. Even then, it was more than just a fashion statement but was thought of as a protective talisman against negative energy."
       - name: firsticon
         type: string
         example: "PASSION"
@@ -140,42 +77,6 @@ patterns:
       - name: text
         type: string
         example: "What’s really beneath the surface?"
-      - name: text
-        type: string
-        example: "Speak for your Self."
-      - name: text
-        type: string
-        example: "You've got to let go."
-      - name: text
-        type: string
-        example: "Get yourself connected."
-      - name: text
-        type: string
-        example: "Never sleep on your dreams."
-      - name: text
-        type: string
-        example: "Never stop grinding."
-      - name: text
-        type: string
-        example: "Clear your mind of 'can't even.'"
-      - name: text
-        type: string
-        example: "Iron sharpens iron."
-      - name: text
-        type: string
-        example: "Returning to Earth."
-      - name: text
-        type: string
-        example: "Everything is amazing. R-E-L-A-X."
-      - name: text
-        type: string
-        example: "All about that action."
-      - name: text
-        type: string
-        example: "A little armor for the open heart."
-      - name: text
-        type: string
-        example: "Embrace the serpent."
   products-showcasing:
     title: "Products Slideshow Section"
     description: |

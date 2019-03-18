@@ -1,8 +1,15 @@
 <div class="grid card">
   <div class="unit xs-1 s-1 m-2-5 l-2-5 push-1-2">
     <h3 class="push-0">{{include.price}}</h3>
-    <p class="push-1-2">QTY: 1</p>
-    {% pattern buttons/light text="ADD TO CART" aria="Add to cart button" col="btn-green" %}
+    <div>
+      <p class="inline-block push-1-2">QTY: </p>
+      <div class="inline-block">
+        {% pattern forms/number-picker %}
+      </div>
+    </div>
+    {% if include.button_text %}
+      {% pattern buttons/light text=include.button_text aria=include.button_aria col=include.button_col %}
+    {% endif %}
   </div>
   <div class="unit xs-1 s-1 m-3-5 l-3-5">
     <div class="embed embed-1by1">

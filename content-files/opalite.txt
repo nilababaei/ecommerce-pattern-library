@@ -1,0 +1,17 @@
+crystal-info section:
+{{include.header}} | OPALITE
+{{include.firstpic}} | communication
+{{include.secondpic}} | transformation
+{{include.thirdpic}} | passion
+{{include.firsticon}} | COMMUNICATION
+{{include.secondicon}} | TRANSFORMATION
+{{include.thirdicon}} | PASSION
+{{include.color}} | yellow-gem
+{{include.colorii}} | yellow-gem
+{{include.text}} | Transcend the boundaries.
+{{include.text-main}} | Opalite is a man-made synthetic glass, mistakenly known by a number of different names, including - Tiffany Stone, Opalised Fluorite and Purple Opal.
+
+crystal-info-card:
+{{include.price}} | $10.00
+{{include.image}} | opalite.jpg
+button_col | btn-yellow

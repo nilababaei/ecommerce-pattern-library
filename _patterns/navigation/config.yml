@@ -28,18 +28,6 @@ patterns:
         type: string
         example: "Return to cart button"
         required: false
-      - name: button_text
-        type: string
-        example: "RETURN TO PRODUCTS"
-        required: false
-      - name: button_aria
-        type: string
-        example: "Return to products button"
-        required: false
-      - name: button_url
-        type: url
-        example: "#"
-        required: false
       - name: button_url
         type: url
         example: "/products/"

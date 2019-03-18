@@ -5,9 +5,10 @@
 
 .section-card {
   background-color: var(--color-primary-light);
+  color: var(--color-primary);
 }
 
-.type-hover:hover {
+.card-crystal:hover .section-card {
   background-color: var(--color-primary);
   transition: all 500ms linear;
 }

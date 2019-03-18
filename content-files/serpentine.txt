@@ -1,0 +1,17 @@
+crystal-info section:
+{{include.header}} | SERPENTINE
+{{include.firstpic}} | transformation
+{{include.secondpic}} | manifestation
+{{include.thirdpic}} | vitality
+{{include.firsticon}} | TRANSFORMATION
+{{include.secondicon}} | MANIFESTATION
+{{include.thirdicon}} | VITALITY
+{{include.color}} | green-gem
+{{include.colorii}} | green-gem
+{{include.text}} | Embrace the serpent.
+{{include.text-main}} | The medicine of the snake is considered magical, especially among ancient healers, who used the Serpentine crystal stone as an antidote for deadly snakebites. In crystal healing, the Serpentine crystal meaning harnesses powerful healing energy that works to create an energetic and protective shield around the body. When you feel safe and guarded from proverbial snakebites, it gives you the freedom and security you need to glow with love and happiness.
+
+crystal-info-card:
+{{include.price}} | $6.00
+{{include.image}} | serpentine.jpg
+button_col | btn-green

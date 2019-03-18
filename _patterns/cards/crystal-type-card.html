@@ -1,11 +1,9 @@
-<div class="card card-crystal gutter-1-2 push-1-2">
+<a class="block card card-crystal" href="{{include.data.url}}" aria-label="Click to go to crystal's page">
   <div class="embed embed-1by1">
-    <img class="img-flex embed-item" src="/images/{{include.image}}" alt="Image of crystal">
+    <img class="img-flex embed-item" src="{{include.data.image}}" alt="Image of crystal">
   </div>
-  <a href="{{include.url}}" aria-label="Click to go to crystal's page">
-    <div class="type-hover island section-card">
-      <h5 class="card-text push-0">{{include.header}}</h5>
-      <h4 class="card-text push-1-2">{{include.price}}</h4>
-    </div>
-  </a>
-</div>
+  <div class="island section-card">
+    <h5 class="card-text push-0">{{include.data.name}}</h5>
+    <h4 class="card-text push-1-2">{{include.data.price}}</h4>
+  </div>
+</a>

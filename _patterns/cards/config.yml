@@ -12,147 +12,17 @@ patterns:
       - name: image
         type: string
         example: "amethyst.jpg"
-      - name: image
-        type: string
-        example: "citrine.jpg"
-      - name: image
-        type: string
-        example: "fluorite.jpg"
-      - name: image
-        type: string
-        example: "garnet.jpg"
-      - name: image
-        type: string
-        example: "hematite.jpg"
-      - name: image
-        type: string
-        example: "lepidolite.jpg"
-      - name: image
-        type: string
-        example: "obsidian.jpg"
-      - name: image
-        type: string
-        example: "opalite.jpg"
-      - name: image
-        type: string
-        example: "pyrite.jpg"
-      - name: image
-        type: string
-        example: "rose-quartz.jpg"
-      - name: image
-        type: string
-        example: "serpentine.jpg"
-      - name: image
-        type: string
-        example: "zeolite.jpg"
   crystal-type-card:
     title: "Crystal Type Card"
     description: |
       The <i>Crystal Type Card</i> is to be used on the products list page to organize and show all the available products.
     width: "24em"
     fields:
-      - name: image
-        type: string
-        example: "amethyst.jpg"
-      - name: image
-        type: string
-        example: "citrine.jpg"
-      - name: image
-        type: string
-        example: "fluorite.jpg"
-      - name: image
-        type: string
-        example: "garnet.jpg"
-      - name: image
-        type: string
-        example: "hematite.jpg"
-      - name: image
-        type: string
-        example: "lepidolite.jpg"
-      - name: image
-        type: string
-        example: "obsidian.jpg"
-      - name: image
-        type: string
-        example: "opalite.jpg"
-      - name: image
-        type: string
-        example: "pyrite.jpg"
-      - name: image
-        type: string
-        example: "rose-quartz.jpg"
-      - name: image
-        type: string
-        example: "serpentine.jpg"
-      - name: image
-        type: string
-        example: "zeolite.jpg"
-      - name: url
-        type: url
-        example: "#"
-      - name: url
-        type: url
-        example: "/products-info/"
-      - name: header
-        type: string
-        example: "Amethyst"
-      - name: header
-        type: string
-        example: "Citrine"
-      - name: header
-        type: string
-        example: "Fluorite"
-      - name: header
-        type: string
-        example: "Garnet"
-      - name: header
-        type: string
-        example: "Hematite"
-      - name: header
-        type: string
-        example: "Lepidolite"
-      - name: header
-        type: string
-        example: "Obsidian"
-      - name: header
-        type: string
-        example: "Opalite"
-      - name: header
-        type: string
-        example: "Pyrite"
-      - name: header
-        type: string
-        example: "Rose-Quartz"
-      - name: header
-        type: string
-        example: "Serpentine"
-      - name: header
-        type: string
-        example: "Zeolite"
-      - name: price
-        type: string
-        example: "$5.00"
-      - name: price
-        type: string
-        example: "$6.00"
-      - name: price
-        type: string
-        example: "$8.00"
-      - name: price
-        type: string
-        example: "$10.00"
-      - name: price
-        type: string
-        example: "$12.00"
-      - name: price
-        type: string
-        example: "$15.00"
-      - name: price
-        type: string
-        example: "$18.00"
-      - name: price
-        type: string
-        example: "$20.00"
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   crystal-info-card:
     title: "Crystal Info Card"
     description: |
@@ -162,63 +32,27 @@ patterns:
       - name: image
         type: string
         example: "amethyst.jpg"
-      - name: image
-        type: string
-        example: "citrine.jpg"
-      - name: image
-        type: string
-        example: "fluorite.jpg"
-      - name: image
-        type: string
-        example: "garnet.jpg"
-      - name: image
-        type: string
-        example: "hematite.jpg"
-      - name: image
-        type: string
-        example: "lepidolite.jpg"
-      - name: image
-        type: string
-        example: "obsidian.jpg"
-      - name: image
-        type: string
-        example: "opalite.jpg"
-      - name: image
-        type: string
-        example: "pyrite.jpg"
-      - name: image
-        type: string
-        example: "rose-quartz.jpg"
-      - name: image
-        type: string
-        example: "serpentine.jpg"
-      - name: image
-        type: string
-        example: "zeolite.jpg"
-      - name: price
-        type: string
-        example: "$5.00"
-      - name: price
-        type: string
-        example: "$6.00"
-      - name: price
-        type: string
-        example: "$8.00"
-      - name: price
-        type: string
-        example: "$10.00"
-      - name: price
-        type: string
-        example: "$12.00"
-      - name: price
-        type: string
-        example: "$15.00"
-      - name: price
-        type: string
-        example: "$18.00"
       - name: price
         type: string
         example: "$20.00"
+      - name: button_text
+        type: string
+        example: "ADD TO CART"
+        required: false
+      - name: button_aria
+        type: string
+        example: "Add to cart button"
+        required: false
+      - name: button_col
+        type: class
+        classes:
+          - btn-light
+          - btn-orange
+          - btn-yellow
+          - btn-green
+          - btn-blue
+          - btn-purple
+        required: false
   recommendations-card:
     title: "Recommendations Card"
     description: |
@@ -228,96 +62,9 @@ patterns:
       - name: image
         type: string
         example: "amethyst.jpg"
-      - name: image
-        type: string
-        example: "citrine.jpg"
-      - name: image
-        type: string
-        example: "fluorite.jpg"
-      - name: image
-        type: string
-        example: "garnet.jpg"
-      - name: image
-        type: string
-        example: "hematite.jpg"
-      - name: image
-        type: string
-        example: "lepidolite.jpg"
-      - name: image
-        type: string
-        example: "obsidian.jpg"
-      - name: image
-        type: string
-        example: "opalite.jpg"
-      - name: image
-        type: string
-        example: "pyrite.jpg"
-      - name: image
-        type: string
-        example: "rose-quartz.jpg"
-      - name: image
-        type: string
-        example: "serpentine.jpg"
-      - name: image
-        type: string
-        example: "zeolite.jpg"
       - name: header
         type: string
         example: "Amethyst"
-      - name: header
-        type: string
-        example: "Citrine"
-      - name: header
-        type: string
-        example: "Fluorite"
-      - name: header
-        type: string
-        example: "Garnet"
-      - name: header
-        type: string
-        example: "Hematite"
-      - name: header
-        type: string
-        example: "Lepidolite"
-      - name: header
-        type: string
-        example: "Obsidian"
-      - name: header
-        type: string
-        example: "Opalite"
-      - name: header
-        type: string
-        example: "Pyrite"
-      - name: header
-        type: string
-        example: "Rose-Quartz"
-      - name: header
-        type: string
-        example: "Serpentine"
-      - name: header
-        type: string
-        example: "Zeolite"
-      - name: price
-        type: string
-        example: "$5.00"
-      - name: price
-        type: string
-        example: "$6.00"
-      - name: price
-        type: string
-        example: "$8.00"
-      - name: price
-        type: string
-        example: "$10.00"
-      - name: price
-        type: string
-        example: "$12.00"
-      - name: price
-        type: string
-        example: "$15.00"
-      - name: price
-        type: string
-        example: "$18.00"
       - name: price
         type: string
         example: "$20.00"
@@ -329,85 +76,10 @@ patterns:
     fields:
       - name: price
         type: string
-        example: "$5.00"
-      - name: price
-        type: string
-        example: "$6.00"
-      - name: price
-        type: string
-        example: "$8.00"
-      - name: price
-        type: string
-        example: "$10.00"
-      - name: price
-        type: string
-        example: "$12.00"
-      - name: price
-        type: string
-        example: "$15.00"
-      - name: price
-        type: string
-        example: "$18.00"
-      - name: price
-        type: string
         example: "$20.00"
-      - name: pricetotal
-        type: string
-        example: "$6.50"
-      - name: pricetotal
-        type: string
-        example: "$7.50"
-      - name: pricetotal
-        type: string
-        example: "$9.50"
-      - name: pricetotal
-        type: string
-        example: "$11.50"
-      - name: pricetotal
-        type: string
-        example: "$13.50"
-      - name: pricetotal
-        type: string
-        example: "$16.50"
-      - name: pricetotal
-        type: string
-        example: "$19.50"
       - name: pricetotal
         type: string
         example: "$21.50"
       - name: text
         type: string
         example: "x1 Amethyst"
-      - name: text
-        type: string
-        example: "x1 Citrine"
-      - name: text
-        type: string
-        example: "x1 Fluorite"
-      - name: text
-        type: string
-        example: "x1 Garnet"
-      - name: text
-        type: string
-        example: "x1 Hematite"
-      - name: text
-        type: string
-        example: "x1 Lepidolite"
-      - name: text
-        type: string
-        example: "x1 Obsidian"
-      - name: text
-        type: string
-        example: "x1 Opalite"
-      - name: text
-        type: string
-        example: "x1 Pyrite"
-      - name: text
-        type: string
-        example: "x1 Rose-Quartz"
-      - name: text
-        type: string
-        example: "x1 Serpentine"
-      - name: text
-        type: string
-        example: "x1 Zeolite"

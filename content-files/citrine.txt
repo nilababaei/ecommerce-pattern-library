@@ -1,0 +1,17 @@
+crystal-info section:
+{{include.header}} | CITRINE
+{{include.firstpic}} | intuition
+{{include.secondpic}} | creativity
+{{include.thirdpic}} | love
+{{include.firsticon}} | INTUITION
+{{include.secondicon}} | CREATIVITY
+{{include.thirdicon}} | LOVE
+{{include.color}} | orange-gem
+{{include.colorii}} | orange-gem
+{{include.text}} | Never stop grinding.
+{{include.text-main}} | Derived from the French word citron, meaning lemon, this crystal’s vibe is anything but sour! Sweet is the essence of this fortune-flourishing gem. Used in the jewelry of Greek and Roman civilizations dating back to the 1st century A.D., Citrine has long been remarked for its subtle, honeyed beauty.
+
+crystal-info-card:
+{{include.price}} | $20.00
+{{include.image}} | citrine.jpg
+button_col | btn-orange
