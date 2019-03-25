@@ -55,7 +55,7 @@ input#date {
 }
 
 input#number {
-  border-color: var(--color-primary);
+  border-color: var(--color-secondary);
 }
 
 .is-validated input:invalid,

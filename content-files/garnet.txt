@@ -7,11 +7,11 @@ crystal-info section:
 {{include.secondicon}} | MANIFESTATION
 {{include.thirdicon}} | CREATIVITY
 {{include.color}} | red-gem
-{{include.colorii}} | red-gem
+{{include.colorii}} | red-gem-ii
 {{include.text}} | What's really beneath the surface?
 {{include.text-main}} | The Garnet crystal meaning is rooted in ancient history and comes from the Latin word ‘granatum’, which means pomegranate, a reference to its intense red color that resembles the glistening, deep red seeds of the fruit. The Garnet crystal was also cherished by early medieval jewelers who incorporated the stone into everything from rings and brooches to buckles and necklaces. Even then, it was more than just a fashion statement but was thought of as a protective talisman against negative energy.
 
 crystal-info-card:
 {{include.price}} | $10.00
 {{include.image}} | garnet.jpg
-button_col | btn-red
+button_col | btn-light

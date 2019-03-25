@@ -7,7 +7,7 @@ crystal-info section:
 {{include.secondicon}} | GROUNDING
 {{include.thirdicon}} | INSIGHT
 {{include.color}} | green-gem
-{{include.colorii}} | green-gem
+{{include.colorii}} | green-gem-ii
 {{include.text}} | Attune with the animals.
 {{include.text-main}} | Zeolite is a mineral complex created from molten lava as it pours into, and reacts with the sea, Zeolite has potent healing effects. For centuries, the powdered forms of specific Zeolites have been used for traditional remedies throughout Asia to promote overall health and well being. The story of the “healing rocks” has been passed down from generation to generation.
 

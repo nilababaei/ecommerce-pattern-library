@@ -7,7 +7,7 @@ crystal-info section:
 {{include.secondicon}} | CLEANSING
 {{include.thirdicon}} | CLARITY
 {{include.color}} | purple-gem
-{{include.colorii}} | purple-gem
+{{include.colorii}} | purple-gem-ii
 {{include.text}} | You've got to let go.
 {{include.text-main}} | Despite it’s prevalence, amethyst has been one of the world’s most revered stones for many centuries. Found in as many places as Brazil, Bolivia, Mexico, Africa, Canada, Russia, USA and Europe, this stone has a rich history of astonishing civilizations with its stunning, saturated beauty. Amethyst healing properties are as plentiful as the stone itself.
 

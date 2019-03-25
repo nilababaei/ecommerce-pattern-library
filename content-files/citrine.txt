@@ -7,7 +7,7 @@ crystal-info section:
 {{include.secondicon}} | CREATIVITY
 {{include.thirdicon}} | LOVE
 {{include.color}} | orange-gem
-{{include.colorii}} | orange-gem
+{{include.colorii}} | orange-gem-ii
 {{include.text}} | Never stop grinding.
 {{include.text-main}} | Derived from the French word citron, meaning lemon, this crystal’s vibe is anything but sour! Sweet is the essence of this fortune-flourishing gem. Used in the jewelry of Greek and Roman civilizations dating back to the 1st century A.D., Citrine has long been remarked for its subtle, honeyed beauty.
 

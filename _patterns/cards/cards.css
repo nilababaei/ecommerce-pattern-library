@@ -13,6 +13,24 @@
   transition: all 500ms linear;
 }
 
+.card-recommendation {
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.card-recommendation:hover .section-card {
+  background-color: var(--color-primary);
+  transition: all 500ms linear;
+}
+
+.card-recommendation:hover h3 {
+  color: var(--color-primary-light);
+}
+
+.card-recommendation:hover h5 {
+  color: var(--color-primary-light);
+}
+
 .left-p {
   text-align: right;
 }
@@ -23,4 +41,9 @@
 
 .card:hover .card-text {
   color: var(--color-primary-light);
+}
+
+.sec-card {
+  max-width: 40em;
+  margin: 0 auto;
 }

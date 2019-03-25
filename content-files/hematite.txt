@@ -7,7 +7,7 @@ crystal-info section:
 {{include.secondicon}} | MANIFESTATION
 {{include.thirdicon}} | GROUNDING
 {{include.color}} | red-gem
-{{include.colorii}} | red-gem
+{{include.colorii}} | red-gem-ii
 {{include.text}} | Iron sharpens iron.
 {{include.text-main}} | Because of its high iron content, the Hematite crystal stone meaning is associated with the ancient Greeks who used powdered Hematite to make a red pigment. Because of its intense blood-like shade when mixed with water, the Greeks named it 'haima,' the Latin word for blood. This mysterious stone with a silvery sheen is linked with the silver color ray, the shaded moonlight that mesmerizes with its bright and clear iridescence.
 

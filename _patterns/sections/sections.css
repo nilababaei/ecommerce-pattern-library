@@ -101,3 +101,13 @@
 .blue-txt {
   color: var(--color-primary);
 }
+
+.sec-size {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.sec-cards {
+  max-width: 40em;
+  margin: 0 auto;
+}

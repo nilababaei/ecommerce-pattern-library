@@ -7,7 +7,7 @@ crystal-info section:
 {{include.secondicon}} | STRENGTH
 {{include.thirdicon}} | MANIFESTATION
 {{include.color}} | orange-gem
-{{include.colorii}} | orange-gem
+{{include.colorii}} | orange-gem-ii
 {{include.text}} | All about that action.
 {{include.text-main}} | Treasured in many ancient civilizations, the Pyrite crystal stone meaning comes from the Greek word ‘ pry,’ which means fire. This fiery stone manifests male energy, that burning cauldron of passion that exists deep within the third eye chakra. Harnessing the masculine energy, the pyrite crystal meaning is a symbol of abundance and prosperity, which makes it an excellent addition to your office or workspace decor. Gaze upon the stone and remember your intention and its powerful healing properties. Whether it's to increase focus or to simply give you a an energetic boost, the Pyrite crystal stone gives you the strength and determination you need to take on challenging tasks.
 

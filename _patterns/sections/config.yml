@@ -77,6 +77,36 @@ patterns:
       - name: text
         type: string
         example: "What’s really beneath the surface?"
+      - name: properties-i
+        type: string
+        example: "- Flow of Chi"
+      - name: properties-ii
+        type: string
+        example: "- Detox"
+      - name: properties-iii
+        type: string
+        example: "- Love-attracting"
+      - name: properties-iv
+        type: string
+        example: "- Healing"
+      - name: properties-v
+        type: string
+        example: "- Enlightenment"
+      - name: properties-vi
+        type: string
+        example: "- Abundance"
+      - name: properties-vii
+        type: string
+        example: "- Vitality"
+      - name: chakra
+        type: string
+        example: "Heart"
+      - name: shape
+        type: string
+        example: "Tumbled"
+      - name: properties-vii
+        type: hardness
+        example: "7"
   products-showcasing:
     title: "Products Slideshow Section"
     description: |

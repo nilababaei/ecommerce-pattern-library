@@ -12,27 +12,9 @@ patterns:
       - name: text
         type: string
         example: "HOME"
-      - name: text
-        type: string
-        example: "PRODUCTS"
-      - name: text
-        type: string
-        example: "ONLINE CLASS"
-      - name: text
-        type: string
-        example: "BLOG"
-      - name: text
-        type: string
-        example: "ABOUT US"
-      - name: url
-        type: url
-        example: "#"
       - name: url
         type: url
         example: "/index/"
-      - name: url
-        type: url
-        example: "/products/"
   footer:
     title: "Footer"
     description: |
@@ -41,21 +23,9 @@ patterns:
       - name: text
         type: string
         example: "Terms & Conditions"
-      - name: text
-        type: string
-        example: "Privacy Statement"
-      - name: text
-        type: string
-        example: "Cookie Policy"
       - name: aria
         type: string
         example: "Terms & Conditions button"
-      - name: aria
-        type: string
-        example: "Privacy Statement button"
-      - name: aria
-        type: string
-        example: "Cookie Policy button"
       - name: url
         type: url
         example: "#"
@@ -74,12 +44,6 @@ patterns:
       - name: url
         type: url
         example: "#"
-      - name: text
-        type: string
-        example: "SEND"
-      - name: aria
-        type: string
-        example: "Send button"
   transparent-dark-blue:
     title: "Transparent Dark Blue"
     description: |
@@ -88,12 +52,6 @@ patterns:
       - name: text
         type: string
         example: "READ OUR BLOG"
-      - name: text
-        type: string
-        example: "SHOP NOW"
-      - name: url
-        type: url
-        example: "/products/"
       - name: url
         type: url
         example: "#"
@@ -110,23 +68,14 @@ patterns:
         type: string
         example: "Add to cart button"
       - name: col
-        type: string
-        example: "btn-light"
-      - name: col
-        type: string
-        example: "btn-orange"
-      - name: col
-        type: string
-        example: "btn-yellow"
-      - name: col
-        type: string
-        example: "btn-green"
-      - name: col
-        type: string
-        example: "btn-blue"
-      - name: col
-        type: string
-        example: "btn-purple"
+        type: class
+        classes:
+          - btn-light
+          - btn-orange
+          - btn-yellow
+          - btn-green
+          - btn-blue
+          - btn-purple
       - name: url
         type: url
         example: "#"
@@ -141,18 +90,9 @@ patterns:
       - name: aria
         type: string
         example: "Return to cart button"
-      - name: text
-        type: string
-        example: "RETURN TO PRODUCTS"
-      - name: aria
-        type: string
-        example: "Return to products button"
       - name: url
         type: url
         example: "#"
-      - name: url
-        type: url
-        example: "/products/"
   breadcrumbs:
     title: "Breadcrumbs"
     description: |
@@ -165,24 +105,6 @@ patterns:
       - name: aria
         type: string
         example: "Cart button"
-      - name: text
-        type: string
-        example: "CUSTOMER INFORMATION"
-      - name: aria
-        type: string
-        example: "Customer information button"
-      - name: text
-        type: string
-        example: "SHIPPING METHOD"
-      - name: aria
-        type: string
-        example: "Shipping method button"
-      - name: text
-        type: string
-        example: "PAYMENT METHOD"
-      - name: aria
-        type: string
-        example: "Payment method button"
       - name: url
         type: url
         example: "#"
@@ -200,12 +122,6 @@ patterns:
       - name: url
         type: url
         example: "#"
-      - name: text
-        type: string
-        example: "ADD TO CART"
-      - name: aria
-        type: string
-        example: "Add to cart button"
   cart:
     title: "Cart"
     description: |
