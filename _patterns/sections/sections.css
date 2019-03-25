@@ -111,3 +111,7 @@
   max-width: 40em;
   margin: 0 auto;
 }
+
+.align-class {
+  text-align: right;
+}

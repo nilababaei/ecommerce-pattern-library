@@ -11,6 +11,12 @@
   transition: all 300ms linear;
 }
 
+.btn:focus {
+  outline: 3px solid var(--color-secondary);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
 .btn-ghost {
   background-color: transparent;
   border-color: transparent;
