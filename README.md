@@ -43,6 +43,11 @@ Netlify URL: [http://friendly-fermi-7bbde9.netlify.com](http://friendly-fermi-7b
 
 ---
 
+## Collaborators
+- [@thomasjbradley](https://github.com/thomasjbradley)
+- [@michaelqian1995](https://github.com/michaelqian1995)
+
+---
 ## Copyright Notice
 
 2019 © NILA BABAEI. All rights reserved.
