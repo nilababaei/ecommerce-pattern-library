@@ -17,3 +17,11 @@ ul > li::before {
 .main-change:hover {
   color: var(--color-primary);
 }
+
+.focusbtn:focus {
+  outline: 3px solid var(--color-secondary);
+  border-color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  color: var(--color-secondary-light);
+  padding: 3px;
+}

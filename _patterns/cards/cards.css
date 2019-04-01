@@ -47,3 +47,8 @@
   max-width: 40em;
   margin: 0 auto;
 }
+
+.focuscard:focus {
+  outline: 3px solid var(--color-secondary);
+  border-color: var(--color-secondary);
+}
