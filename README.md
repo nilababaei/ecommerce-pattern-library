@@ -46,6 +46,7 @@ Netlify URL: [http://friendly-fermi-7bbde9.netlify.com](http://friendly-fermi-7b
 ## Collaborators
 - [@thomasjbradley](https://github.com/thomasjbradley)
 - [@michaelqian1995](https://github.com/michaelqian1995)
+- [@jmjones715](https://github.com/jmjones715)
 
 ---
 ## Copyright Notice
