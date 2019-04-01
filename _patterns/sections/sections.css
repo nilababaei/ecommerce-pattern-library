@@ -55,7 +55,7 @@
   border-color: var(--color-naturalgreen);
   border-width: thick;
   border-style: solid;
-  width: 4em;
+  width: 5em;
   margin: 0 auto;
 }
 
@@ -81,7 +81,8 @@
   border-color: var(--color-purpleofairy);
   border-width: thick;
   border-style: solid;
-  width: 4em;
+  min-width: 4em;
+  max-width: 5em;
   margin: 0 auto;
 }
 
