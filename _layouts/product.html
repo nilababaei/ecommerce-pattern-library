@@ -2,6 +2,10 @@
 layout: default
 ---
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+{% pattern sections/crystal-info header="GARNET" color="rd-gem" colorii="rd-gem-ii" text-main="The Garnet crystal meaning is rooted in ancient history and comes from the Latin word ‘granatum’, which means pomegranate, a reference to its intense red color that resembles the glistening, deep red seeds of the fruit. The Garnet crystal was also cherished by early medieval jewelers who incorporated the stone into everything from rings and brooches to buckles and necklaces. Even then, it was more than just a fashion statement but was thought of as a protective talisman against negative energy." firsticon="PASSION" secondicon="MANIFESTATION" thirdicon="CREATIVITY" firstpic="passion" secondpic="manifestation" thirdpic="creativity" text="What’s really beneath the surface?" properties-i="- Flow of Chi" properties-ii="- Detox" properties-iii="- Love-attracting" properties-iv="- Healing" properties-v="- Enlightenment" properties-vi="- Abundance" properties-vii="- Vitality" chakra="Heart" shape="Tumbled" hardness="7" %}
+
+<div class="pad-t pad-b">
+  {% pattern cards/crystal-info-card image="garnet.jpg" price="$10.00" button_text="ADD TO CART" button_aria="ADD to cart button" button_col="btn-light" %}
+</div>
+
+{% pattern sections/products-showcasing text="amethyst" textii="citrine" textiii="hematite" url="#" %}
