@@ -2,16 +2,21 @@
 name: "amethyst"
 description: |
   Despite it’s prevalence, amethyst has been one of the world’s most revered stones for many centuries. Found in as many places as Brazil, Bolivia, Mexico, Africa, Canada, Russia, USA and Europe, this stone has a rich history of astonishing civilizations with its stunning, saturated beauty. Amethyst healing properties are as plentiful as the stone itself.
+quote: "You've got to let go."
+firstpic: "protection"
+secondpic: "cleansing"
+thirdpic: "clarity"
+firsticon: "PROTECTION"
+secondicon: "CLEANSING"
+thirdicon: "CLARITY"
 non_conflict: true
-image: "/images/amethyst.jpg"
+image: "amethyst.jpg"
 price: $20.00
-colors:
-  - "Purple"
-  - "Clear"
-  - "White"
-shape: "cluster"
+color: "purple-gem"
+color2: "purple-gem-ii"
+shape: "Cluster"
 hardness: 7
-chakra: "crown"
+chakra: "Crown"
 properties:
   - "Protective"
   - "Purifying"
@@ -22,4 +27,5 @@ properties:
   - "Intuition"
   - "Communication"
   - "Work effectiveness"
+button: "btn-purple"
 ---

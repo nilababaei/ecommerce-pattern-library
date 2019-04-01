@@ -3,14 +3,13 @@ name: "opalite"
 description: |
   Opalite is a man-made synthetic glass, mistakenly known by a number of different names, including - Tiffany Stone, Opalised Fluorite and Purple Opal.
 non_conflict: true
-image: "/images/opalite.jpg"
+image: "opalite.jpg"
 price: $10.00
-colors:
-  - "White"
-  - "Clear"
-shape: "sphere"
+color: "yellow-gem"
+color2: "yellow-gem-ii"
+shape: "Sphere"
 hardness: 5
-chakra: "third eye"
+chakra: "Third Eye"
 properties:
   - "Psychic abilities"
   - "Spirituality"
@@ -21,4 +20,5 @@ properties:
   - "Healing"
   - "Sexual experience"
   - "Stabilizing"
+button: "btn-yellow"
 ---
