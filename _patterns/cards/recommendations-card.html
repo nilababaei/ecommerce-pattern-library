@@ -1,10 +1,10 @@
 <div class="card card-recommendation gutter-1-2">
-  <a href="{{include.url}}" aria-label="Click to go to crystal's page">
+  <a class="focuscard" href="{{include.url}}" aria-label="Click to go to crystal's page">
     <div class="embed embed-1by1">
-      <img class="embed-item img-flex" src="/images/{{include.image}}" alt="Picture of the crystal">
+      <img class="embed-item img-flex" src="/images/{{include.image}}" alt="Picture of the crystal" aria-details="#crystalcard">
     </div>
   </a>
-  <div class="island section-card">
+  <div class="island section-card" id="crystalcard">
     <h5 class="push-0">{{include.header}}</h5>
     <h3 class="push-1-2">{{include.price}}</h3>
     {% pattern buttons/grey-and-blue-hover text="ADD TO CART" aria="Add to cart button" url="#" %}
