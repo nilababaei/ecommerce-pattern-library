@@ -104,8 +104,8 @@ patterns:
       - name: shape
         type: string
         example: "Tumbled"
-      - name: properties-vii
-        type: hardness
+      - name: hardness
+        type: string
         example: "7"
   products-showcasing:
     title: "Products Slideshow Section"
