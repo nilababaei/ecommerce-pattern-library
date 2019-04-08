@@ -111,19 +111,6 @@ patterns:
     title: "Products Slideshow Section"
     description: |
       The <i>Products Showcasing</i> is to be used on the product details page in order to promote other similar products. This can be combined with cards and buttons.
-    fields:
-      - name: text
-        type: string
-        example: "amethyst"
-      - name: textii
-        type: string
-        example: "citrine"
-      - name: textiii
-        type: string
-        example: "hematite"
-      - name: url
-        type: url
-        example: "#"
   crystal-start:
     title: "Crystal Items Section"
     description: |

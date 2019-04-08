@@ -51,6 +51,18 @@
   background-color: var(--color-primary);
 }
 
+.btn-light-blue {
+  color: var(--color-secondary-light);
+  background-color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.btn-light-blue:hover {
+  color: var(--color-primary);
+  border-color: var(--color-primary-light);
+  background-color: var(--color-primary-light);
+}
+
 .btn-nav {
   color: var(--color-secondary);
   background-color: transparent;

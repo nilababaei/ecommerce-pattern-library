@@ -12,7 +12,7 @@ thirdicon: "INSIGHT"
 non_conflict: true
 image: "zeolite.jpg"
 price: $18.00
-color: "blue-gem"
+color: "blue-gem-i"
 color2: "blue-gem-ii"
 shape: "Cluster"
 hardness: 4

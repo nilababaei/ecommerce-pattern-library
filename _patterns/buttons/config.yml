@@ -122,6 +122,20 @@ patterns:
       - name: url
         type: url
         example: "#"
+  light-blue-hover:
+    title: "Light Blue Hover"
+    description: |
+      The <i>Light Blue Hover</i> is another basic website style, which is to be used in the product details page and can be minimized with a different font-size.
+    fields:
+      - name: text
+        type: string
+        example: "ADD TO CART"
+      - name: aria
+        type: string
+        example: "Add to cart button"
+      - name: url
+        type: url
+        example: "#"
   cart:
     title: "Cart"
     description: |
