@@ -121,3 +121,7 @@ input#number {
 [type="radio"]:checked + label::before {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'%3E%3Ccircle fill='var(--color-primary)' cx='128' cy='128' r='70.4'/%3E%3C/svg%3E")
 }
+
+input.srch {
+  padding-left: 2em;
+}
